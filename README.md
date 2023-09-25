@@ -1,11 +1,26 @@
 # Getting_Started_with_ChatDev
 How to use ChatDev for windows users
 
-## Install Miniconda
-First of all Install Miniconda from official website of Miniconda [Install Miniconda] (https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html)
+## Install Miniconda or Anaconda
+First of all Install Miniconda from official website of Miniconda [Install Miniconda](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html)
+#### Or
+Install Anaconda from offercial website of [Anaconda](https://www.anaconda.com/download/).
 
-## Open Miniconda prompt
-Go to search of your system and type Anaconda Prompt
+## Open Miniconda prompt in case of Miniconda
+If you have installed miniconda So, go to search of your system and type Anaconda Prompt. And if you installed anaconda then this step is not needed.
+
+## Make a folder AI in D:/
+Make a folder in D drive and move to this folder by typing this and then enter
+```
+C:/ cd D:/AI
+```
+This will not work untill you type D: and enter again
+```
+D:
+```
+## In Case of Anaconda
+If you have installed Anaconda then no need to do above steps. Make a folder AI in D drive. Then open this folder in VS Code. And open terminal by clocking Ctrl + Shift + Backtick. Or you can open it from VS Code top menu bar Teminal > New Terminal
+
 
 ## Clone the GitHub Repository
 Begin by cloning the repository using the command:
@@ -19,6 +34,10 @@ Ensure you have a version 3.9 or higher Python environment. You can create and a
 ```
 conda create -n ChatDev_conda_env python=3.9 -y
 ```
+**For Anaconda**
+```
+python -m venv ChatDev_env
+```
 
 ## Activate the Enviornment
 Use the following command to activate the enviornment
@@ -26,6 +45,12 @@ Use the following command to activate the enviornment
 ```
 conda activate ChatDev_conda_env
 ```
+**For Anaconda**
+```
+ChatDev_env\scripts\activate
+```
+
+**Now Remaining steps are almost same for conda and Anaconda**
 
 ## Change Directory
 Move into the ChatDev directory
@@ -40,9 +65,10 @@ Install the necessary dependencies by running
 ```
 pip3 install -r requirements.txt
 ```
+If pip3 is not working in your case you can use pip
 
 ## Set OpenAI API Key
-Export your OpenAI API key as an environment variable from Open AI official website. [OpenAI] (https://openai.com/) For this make a fresh account and generate API key using this link [OpenAI API Key] (https://platform.openai.com/account/api-keys)
+Export your OpenAI API key as an environment variable from Open AI official website. [OpenAI](https://openai.com/) For this make a fresh account and generate API key using this link [OpenAI API Key](https://platform.openai.com/account/api-keys)
 Replace "your_OpenAI_API_key" with your actual API key. Remember that this environment variable is session-specific, so you need to set it again if you open a new terminal session.
 
 ```
