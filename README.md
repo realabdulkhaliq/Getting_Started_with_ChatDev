@@ -2,9 +2,9 @@
 How to use ChatDev for windows users
 
 ## Install Miniconda or Anaconda
-First of all Install Miniconda from official website of Miniconda [Install Miniconda](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html) Install Miniconda [Install Miniconda]([url](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html))
+First of all Install Miniconda from official website of Miniconda [Install Miniconda](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html) 
 #### Or
-Install Anaconda from offercial website of [Anaconda](https://www.anaconda.com/download/).
+Install Anaconda from official website of [Anaconda](https://www.anaconda.com/download/).
 
 ## Open Miniconda prompt in case of Miniconda
 If you have installed miniconda So, go to search of your system and type Anaconda Prompt. And if you installed anaconda then this step is not needed.
