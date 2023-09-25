@@ -66,7 +66,7 @@ python run.py --task please make a flask app. app should have a web page asking 
 ```
 
 ## Run Your Software
-Once generated, you can find your software in the WareHouse directory under a specific project folder such as project_name_DefaultOrganization_timestamp. Run your software using the following command within that directory. Here timestamp is a number
+Once generated, you can find your software in the WareHouse directory under a specific project folder such as project_name_DefaultOrganization_timestamp. Run your software using the following command within that directory. Here timestamp is a number. You can manually go to folder find your project. It look like my-first-ai-app_DefaultOrganization_1234567890 and copy the path and then change directory using prompt or manually handle it
 
 ```
 cd WareHouse/project_name_DefaultOrganization_timestamp
@@ -84,6 +84,8 @@ cd WareHouse/my-first-ai-app_DefaultOrganization_timestamp
 mkd templates
 ```
 
+You can also make it manually by moving in to folder and then Right Click > New > Folder
+
 ## Move HTML files to templates
 Now check your folder WareHouse/my-first-ai-app_DefaultOrganization_timestamp and move all .html extension files to templates folder manually
 
@@ -92,4 +94,8 @@ Now check your folder WareHouse/my-first-ai-app_DefaultOrganization_timestamp an
 ```
 python main.py
 ```
-python3 main.py
+## Run your App
+Run your App by clicking link which looks like this: Running on http://127.0.0.1:5000
+
+## Find and Solve Errors
+If there are any kind of errors. Then solve it and run your file again.
