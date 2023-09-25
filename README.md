@@ -1,12 +1,10 @@
 # Getting_Started_with_ChatDev
 How to use ChatDev for windows users
 
-## Install Miniconda or Anaconda
+## Install Miniconda
 First of all Install Miniconda from official website of Miniconda [Install Miniconda](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html) 
-#### Or
-Install Anaconda from official website of [Anaconda](https://www.anaconda.com/download/).
 
-## Open Miniconda prompt in case of Miniconda
+## Open Miniconda prompt
 If you have installed miniconda So, go to search of your system and type Anaconda Prompt. And if you installed anaconda then this step is not needed.
 
 ## Make a folder AI in D:/
@@ -18,9 +16,6 @@ This will not work untill you type D: and enter again
 ```
 D:
 ```
-## In Case of Anaconda
-If you have installed Anaconda then no need to do above steps. Make a folder AI in D drive. Then open this folder in VS Code. And open terminal by clocking Ctrl + Shift + Backtick. Or you can open it from VS Code top menu bar Teminal > New Terminal
-
 
 ## Clone the GitHub Repository
 Begin by cloning the repository using the command:
@@ -28,18 +23,15 @@ Begin by cloning the repository using the command:
 ```
 git clone https://github.com/OpenBMB/ChatDev.git
 ```
+
+This github repository is present at https://github.com/OpenBMB/ChatDev
+
 ## Set Up Python Environment
 Ensure you have a version 3.9 or higher Python environment. 
-
-**For Conda**
 You can create and activate this environment using the following commands, replacing ChatDev_conda_env with your preferred environment name or you can use as it is
 
 ```
 conda create -n ChatDev_conda_env python=3.9 -y
-```
-**For Anaconda**
-```
-python -m venv ChatDev_env
 ```
 
 ## Activate the Enviornment
@@ -49,12 +41,6 @@ Use the following command to activate the enviornment
 ```
 conda activate ChatDev_conda_env
 ```
-**For Anaconda**
-```
-ChatDev_env\scripts\activate
-```
-
-**Now Remaining steps are almost same for conda and Anaconda**
 
 ## Change Directory
 Move into the ChatDev directory
